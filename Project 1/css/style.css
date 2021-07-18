@@ -113,3 +113,51 @@ body {
     border-left: 4px solid #faf6ed;
     border-right: 4px solid #faf6ed;
 }
+
+.animais-descricao {
+    grid-column: 3;
+}
+
+.animais-descricao {
+    margin-bottom: 3rem;
+}
+
+.faq-lista {
+    grid-column: 2 / 4;
+}
+
+.faq-lista dt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    color: #E54;
+}
+
+.faq-lista dt::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+    margin-right: 10px;
+    background: #FB5;
+}
+
+.faq-lista dd {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: .5rem;
+    margin-left: 30px;
+}
+
+.mapa {
+    grid-column: 2;
+}
+
+.dados {
+    grid-column: 3;
+}
+
+.dados li {
+    margin-bottom: 1rem;
+    font-family: fantasy;
+}
