@@ -154,10 +154,21 @@ body {
 }
 
 .dados {
-    grid-column: 3;
+    grid-column: 4;
 }
 
 .dados li {
     margin-bottom: 1rem;
     font-family: fantasy;
 }
+
+.dados li::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+    margin-right: 10px;
+    background: #FB5;
+}
+
+.copy {}
