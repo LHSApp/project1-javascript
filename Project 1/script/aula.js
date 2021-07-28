@@ -19,7 +19,7 @@ const paragrafos = document.querySelectorAll('p');
 
 console.log(paragrafos[paragrafos.length - 1]);
 
-FOREACH
+//FOREACH
 
 
 
